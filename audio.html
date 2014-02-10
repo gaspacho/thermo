@@ -3,42 +3,21 @@ layout: default
 title: Thermodynamic Arts & Magic
 ---
 
-<!-- Header -->
-                        <section id="header">
-                                <header>
-                                        <h1>Thermodynamic arts & Magic</h1>
-                                        <p>create is poetry</p>
-                                </header>
-                                <footer>
-                                        <a href="#banner" class="button style2 scrolly scrolly-centered">discover</a>
-                                </footer>
-                        </section>
-
-
-                <!-- Banner -->
-                        <section id="banner">
-                                <header>
-                                        <h2>wisdom solutions</h2>
-                                </header>
-				<p>The implementation of ideas, is the magic of transforming paradigms.</p>
-                                <p>Handling technology to realize projects.</p>
-                                <p>Because development is Art.</p>
-				<footer>
-                                        <a href="#first" class="button style2 scrolly">Act on this message</a>
-                                </footer>
-                        </section>
-
-
- <!-- Feature 1 -->
                         <article id="first" class="container box style1 right">
                                 <a href="http://ineedchemicalx.deviantart.com/art/Time-goes-by-too-fast-335982438" class="image full"><img src="images/pic01.jpg" alt="" /></a>
                                 <div class="inner">
                                         <header>
 						<h2>Audio & Noise</h2>
-					</header>
-					<p> Research and development analog audio synthesizers, also called Atari Punk </ p>
-					</br>
-					<a href="audio.html" class="style2 scrolly">devices.</a>
+						
+                                        </header>
+  <ul class="posts">
+    {% for post in site.categories.audio %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+<br />
+<br />
+  </ul>
+
                                 </div>
                         </article>
 
