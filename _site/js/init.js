@@ -173,6 +173,9 @@
 				if (skel.vars.IEVersion < 9)
 					_settings.poptrox.overlayOpacity = 0;
 			
-				$('.gallery').poptrox(_settings.poptrox);
+//				$('.gallery').poptrox(_settings.poptrox);
+$('.poptroxactive').each(function() {
+   $(this).poptrox(_settings.poptrox);
+});
 
 		});
