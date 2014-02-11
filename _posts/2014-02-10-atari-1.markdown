@@ -1,9 +1,0 @@
----
-layout: post
-title:  "Atari Punk Console"
-date:   2014-02-10 13:49:41
-categories: audio
----
-
-
-<p>La puta que te pario</p>
